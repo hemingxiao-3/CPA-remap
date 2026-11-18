@@ -1,0 +1,34 @@
+# Local legacy research data retained outside the public repository
+_archive/
+
+# Generated CPA-remap outputs
+outputs/
+remap_results/
+abc.history
+*.history
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Build artifacts
+build/
+dist/
+
+# EDA run products
+*.db
+*.odb
+*.spef
+*.route_guide
+*.log
+*.tar.gz
+*.rar
+
+# Editor state
+.vscode/
